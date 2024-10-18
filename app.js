@@ -42,7 +42,7 @@ function verificarPalpite() {
 
 
 function gerarNumeroAleatorio() {
-    let numeroMaximo = 5;
+    let numeroMaximo = 10;
     let numeroEscolhido  = parseInt(Math.random() * numeroMaximo + 1);
     if (listaNumerosGerados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio();
